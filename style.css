@@ -75,3 +75,12 @@ li {
 table, #top{
 background-color: #ccc;
 }
+
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
+    color: red;
+    font-weight: bold;
+}
