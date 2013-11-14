@@ -130,4 +130,14 @@ li { display: inline }
     padding: 20px 10px;
 }
 
-#navigation, #related_links { display: none }
+#navigation, #related_links { 
+    display: none
+     }
+p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p:first-line {
+    font-weight: bold;
+}
