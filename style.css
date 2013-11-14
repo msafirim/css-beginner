@@ -121,3 +121,6 @@ p:first-child {
 
 div p { color: red }
 p { color: blue }
+
+
+li { display: inline }
