@@ -124,3 +124,8 @@ p { color: blue }
 
 
 li { display: inline }
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
