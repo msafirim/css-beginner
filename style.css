@@ -5,9 +5,11 @@ p {
 
 a {
     color: blue;
+    text-decoration: none;
 }
 
 body {
+	font-family: arial, helvetica, sans-serif;
     font-size: 14px;
     color: navy;
     width: 80%;
@@ -16,5 +18,14 @@ body {
 h1 {
     color: #ffc;
     background-color: #009;
+    font-size: 2em;
 }
 
+h2 {
+    font-size: 1.5em;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
