@@ -150,19 +150,17 @@ p:before {
     content: url(images/jam.jpg);
 }
 
+
 #navigation {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
+    width: 200px;
+}
+
+#navigation2 {
+    float: right;
     width: 200px;
 }
 
 #content {
-    margin-left: 200px;
-}
-#navigation2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 200px;
+    margin: 0 200px;
 }
