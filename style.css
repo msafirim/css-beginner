@@ -63,16 +63,15 @@ li {
     font-style: italic;
 }
 
-table {
-    background-color: #ccc;
-}
-
 #top {
-    background-color: #ccc;
     padding: 20px
 }
 
 .intro {
     color: red;
     font-weight: bold;
+}
+
+table, #top{
+background-color: #ccc;
 }
