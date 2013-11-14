@@ -125,14 +125,6 @@ p { color: blue }
 
 li { display: inline }
 
-#navigation a {
-    display: block;
-    padding: 20px 10px;
-}
-
-#navigation, #related_links { 
-    display: none
-     }
 p:first-letter {
     font-size: 24px;
     float: left;
@@ -156,4 +148,15 @@ li:before {
 
 p:before {
     content: url(images/jam.jpg);
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
 }
