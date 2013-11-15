@@ -16,6 +16,12 @@
     /* ... */
 }
 
+@font-face {
+    font-family: "font of all knowledge";
+    src: url(fontofallknowledge.woff);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +51,7 @@ p {
     border-width: 1px 5px 5px 1px;
     border-color: red green blue yellow;
     margin: 10px 50px;border: 1px red solid;
+    font-family: "font of all knowledge", arial, sans-serif;
 }
 
 h1 {
