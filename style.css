@@ -42,7 +42,8 @@ body {
     padding: 0;
     background: #666 url(fade.png) 0 0 repeat-y;
     background: -webkit-linear-gradient(right, #000, #666); 
-    background: linear-gradient(to right, #000, #666);
+background: radial-gradient(circle closest-side, yellow, green);
+background: radial-gradient(at top left, yellow, green);
 }
 
 /* This is a comment, by the way */
