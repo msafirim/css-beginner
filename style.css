@@ -291,3 +291,16 @@ a:hover {
     }
 
 }
+
+
+@media screen and (orientation: landscape) {
+
+    #nav { float: left }
+
+}
+
+@media screen and (orientation: portrait) {
+
+    #nav { float: none }
+
+}
