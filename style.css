@@ -40,9 +40,9 @@ body {
     background-color: #ffc;
     margin: 20px;
     padding: 0;
-    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
-background-image: url(this.jpg), url(that.gif), url(theother.png);
-
+    background: #666 url(fade.png) 0 0 repeat-y;
+    background: -webkit-linear-gradient(right, #000, #666); 
+    background: linear-gradient(to right, #000, #666);
 }
 
 /* This is a comment, by the way */
