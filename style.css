@@ -265,42 +265,27 @@ a:hover {
     transform-origin: 0 0;
 }
 
-@media screen {
-    body { font: 12px arial, sans-serif }
-    #nav { display: block }
-}
 
+@media screen and (min-device-height: 768px) and (max-device-width: 1024px) {
 
-@media screen and (max-width: 1000px) {
-
-    #content { width: 100% }
+    /* You can apply numerous conditions separated by "and" */
 
 }
 
-@media screen and (max-width: 800px) {
+@media (device-pixel-ratio: 2) {
 
-    #nav { float: none }
-
+body {background: #666 url(fade.png);}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (resolution: 326dpi) { 
 
-    #content aside {
-        float: none;
-        display: block;
-    }
+ }
 
-}
+@media screen and (min-resolution: 96dpi) { 
 
+ }
 
-@media screen and (orientation: landscape) {
+@media screen and (device-aspect-ratio: 16/9) { 
 
-    #nav { float: left }
+ }
 
-}
-
-@media screen and (orientation: portrait) {
-
-    #nav { float: none }
-
-}
