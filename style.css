@@ -163,6 +163,9 @@ p:before {
 
 #content {
     margin: 0 200px;
+    border: 5px solid #8b2;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 
