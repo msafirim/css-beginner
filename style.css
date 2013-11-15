@@ -226,3 +226,14 @@ background: hsla(0, 75%, 75%, 0.5);
 #genus_examples > li { border: 1px solid red }
 
 h1 + p { font-weight: bold }
+
+abbr[title] { border-bottom: 3px dotted #000 }
+
+input[type=text] { width: 200px; }
+
+input[type=text][disabled] { border: 1px solid #ccc }
+
+a[href^=http] {
+    padding-right: 10px;
+    background: url(arrow.png) right no-repeat;
+}
