@@ -250,3 +250,11 @@ a:link {
 a:hover {
     color: hsl(36,100%,50%);
 }
+
+#burrito {
+    width: 400px;
+    height: 200px;
+    border: 10px solid rgba(0,255,0,.5);
+    padding: 20px;
+    background: url(blue.jpg) 0 0 no-repeat;
+}
