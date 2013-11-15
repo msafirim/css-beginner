@@ -43,6 +43,8 @@ h1 {
     border-bottom-style: solid;
     border-bottom-width: 0.5em;
     border-bottom-color: #c00;
+    background-image: url(snazzy.jpg);
+    color: rgba(0,0,0,0.8);
 }
 
 h2 {
