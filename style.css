@@ -258,3 +258,9 @@ a:hover {
     padding: 20px;
     background: url(blue.jpg) 0 0 no-repeat;
 }
+.note{
+    width: 300px;
+    height: 300px;
+    background: hsl(36,100%,50%);
+transform: rotate(-10deg);
+}
