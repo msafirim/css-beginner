@@ -12,10 +12,6 @@
     }
 }
 
-@media screen, projection {
-    /* ... */
-}
-
 @font-face {
    font-family: "font of all knowledge";
     src: local("font of all knowledge"), local(fontofallknowledge), url(fontofallknowledge.woff);
@@ -269,3 +265,7 @@ a:hover {
     transform-origin: 0 0;
 }
 
+@media screen {
+    body { font: 12px arial, sans-serif }
+    #nav { display: block }
+}
