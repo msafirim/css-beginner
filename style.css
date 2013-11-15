@@ -194,3 +194,6 @@ text-shadow: -2px 2px 2px #999;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+#genus_examples > li { border: 1px solid red }
+
